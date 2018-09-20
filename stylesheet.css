@@ -8,5 +8,29 @@
 
 .logo{
     height:100px;
+    padding: 2px 10px;
 
+}
+.topnav {
+    background-color: yellow;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: deepskyblue;
+    color: red;
+}
+
+.topnav a.active {
+    background-color: green;
+    color: white;
 }
